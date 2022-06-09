@@ -3,10 +3,7 @@ use serde_json::to_string_pretty;
 use std::io::{self, Read};
 use std::process;
 
-mod jwt;
-
-#[macro_use]
-extern crate lazy_static;
+use jwtinfo::*;
 
 #[doc(hidden)]
 fn main() -> io::Result<()> {
