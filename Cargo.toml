@@ -20,7 +20,7 @@ lazy_static = "1.4"
 
 [lib]
 name = "jwtinfo"
-path = "src/main.rs"
+path = "src/lib.rs"
 
 [[bin]]
 name = "jwtinfo"
